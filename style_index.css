@@ -1,7 +1,16 @@
 body {
-  color: NavajoWhite
+  
 }
 p {
   font-size: 32px
   color:
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+header {
+  text-align: center;
+  font-size: 48px
 }
