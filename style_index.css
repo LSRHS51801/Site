@@ -1,5 +1,6 @@
+
 body {
-background-color: lightgrey
+  background-color: lightgrey
 }
 a:link {
   color: white
@@ -9,7 +10,6 @@ a:visited {
 }
 p {
   font-size: 32px
-  color:
 }
 .flex-container {
   display: flex;
@@ -31,7 +31,6 @@ div {
   background-color: darkgrey;
   color: white;
 }
-
 div.box:hover {
   background-color: lightgrey;
 }

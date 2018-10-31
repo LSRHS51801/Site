@@ -1,0 +1,41 @@
+body {
+  background-color: lightcyan;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+div.body {
+  background-color: grey;
+  border: 10px solid transparent;
+  border-image: url(../border.png) 30 stretch;
+}
+a.choice {
+  font-size: 24px;
+  color: white;
+}
+td.left {
+  text-align: left;
+}
+td.right {
+  text-align: right;
+}
+td.retry {
+  text-align: center;
+}
+table {
+  width: 100%;
+}
+div.img {
+  text-align: center;
+}
+a.retry {
+  font-size: 48px;
+  color: #850505;
+}
+a.win {
+  font-size: 32px;
+  color: goldenrod;
+}
