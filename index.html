@@ -1,36 +1,104 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="style_index.css">
-</head>
-<body>
-<header> My Projects </header>
-<div class="flex-container">
-  <div class="box">
-    <a href="citizenship.html">Citizenship</a>
-    <br></br>
-    <img src="citizen-index-icon.png">
-  </div>
-  <div class="box">
-    <a href="images/index.html">Images</a>
-    <br></br>
-    <img src="images-index-icon.png">
-  </div>
-  <div class="box">
-    <a href="story/index.html">Story</a>
-    <br></br>
-    <img src="story-index-icon.png">
-  </div>
-</div>
-<footer>
-  Citizenship image found at https://static.thenounproject.com/png/410106-200.png
-  <br>
-  Images image found at http://pngimage.net/wp-content/uploads/2018/06/picture-icon-png-5.png
-  <br>
-  Story Image found at https://static1.squarespace.com/static/527a6b1be4b05febaaa05451/t/5280e44be4b009d7ee77605f/1384178765019/whats+your+story.png
-  <br>
-</footer>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_new_index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>My Projects</title>
+  </head>
+<body>
+
+  <div class="modal fade" id="unfinished" tabindex="-1" role="dialog" aria-labelledby="Unfinished" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="Unfinished">Unfinished Page</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          This page is coming soon!!!
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My Projects</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="citizenship.html">Citizenship</a>
+            <a class="dropdown-item" href="images/index.html">Images</a>
+            <a class="dropdown-item" href="story/index.html">Story <span class="badge badge-secondary">New</span></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm"><div class="card" style="width: 18rem; height: 32rem;">
+        <img class="card-img-top" src="citizen-index-icon.png" alt="citizenship">
+        <div class="card-body">
+          <h5 class="card-title">Citizenship</h5>
+          <p class="card-text">My first HTML and CSS Project. Explains what it means to be a good citizen.</p>
+          <a href="citizenship.html" class="btn btn-primary">Visit</a>
+        </div></div></div>
+      <div class="col-sm"><div class="card" style="width: 18rem; height: 32rem;">
+        <img class="card-img-top" src="images-index-icon.png" alt="Images">
+        <div class="card-body">
+          <h5 class="card-title">Images</h5>
+          <p class="card-text">An explanation of a few images. Also explains the difference between a few image formats.</p>
+          <a href="images/index.html" class="btn btn-primary">Visit</a>
+        </div></div></div>
+      <div class="col-sm"><div class="card" style="width: 18rem; height: 32rem;">
+        <img class="card-img-top" src="story-index-icon.png" alt="Story">
+        <div class="card-body">
+          <h5 class="card-title">Story <span class="badge badge-secondary">New</span></h5>
+          <p class="card-text">A quick interactive story made with HTML and CSS.</p>
+          <a href="story/index.html" class="btn btn-primary">Visit</a>
+        </div></div></div>
+      <div class="col-sm"><div class="card" style="width: 18rem; height: 32rem;">
+        <img class="card-img-top" src="old-index-index-icon.png" alt="Story">
+        <div class="card-body">
+          <h5 class="card-title">Index <span class="badge badge-secondary">Old</span></h5>
+          <p class="card-text">My Pre-bootstrap Index page.</p>
+          <a href="old_index.html" class="btn btn-primary">Visit</a>
+        </div></div></div>
+        <div class="col-sm"><div class="card" style="width: 18rem; height: 32rem;">
+          <img class="card-img-top" src="store-index-icon.png" alt="Story">
+          <div class="card-body">
+            <h5 class="card-title">Store Website<span class="badge badge-secondary">WIP</span></h5>
+            <p class="card-text">An example store website made using bootstrap.</p>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#unfinished">
+  Visit
+</button>
+            <!--<a href="old_index.html" class="btn btn-primary">Visit</a>-->
+          </div></div></div>
+    </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
