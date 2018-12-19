@@ -18,13 +18,29 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="Unfinished">Unfinished Page</h5>
+          <h5 class="modal-title" id="Unfinished">Almost there!</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          This page is coming soon!!!
+          A free Amazon giftcard is almost yours! All you need to do is enter your parents creditcard information into the boxes below!
+          <br>
+          <form>
+            <div class="form-group">
+              <label for="crednumber">Number on Front!</label>
+              <input type="text" class="form-control" id="crednuminput" aria-describedby="crednumHelp" placeholder="Enter Here!">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Expiration Date!</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Here!">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword2">Three Digits on Back!</label>
+              <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Enter Here!">
+            </div>
+            <button type="submit" class="btn btn-primary">Get your FREE Giftcard!</button>
+          </form>
         </div>
         </div>
       </div>
@@ -79,7 +95,7 @@
           <a href="story/index.html" class="btn btn-primary">Visit</a>
         </div></div></div>
       <div class="col-sm"><div class="card" style="width: 18rem; height: 32rem;">
-        <img class="card-img-top" src="old-index-index-icon.png" alt="Story">
+        <img class="card-img-top" style="padding:10px" src="old-index-index-icon.png" alt="Story">
         <div class="card-body">
           <h5 class="card-title">Index <span class="badge badge-secondary">Old</span></h5>
           <p class="card-text">My Pre-bootstrap Index page.</p>
@@ -90,11 +106,16 @@
           <div class="card-body">
             <h5 class="card-title">Store Website<span class="badge badge-secondary">WIP</span></h5>
             <p class="card-text">An example store website made using bootstrap.</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#unfinished">
-  Visit
-</button>
-            <!--<a href="old_index.html" class="btn btn-primary">Visit</a>-->
+            <!--button type="button" class="btn btn-danger" data-toggle="modal" data-target="#unfinished">Visit</button>-->
+            <a href="bootstrap-store/index.html" class="btn btn-danger">Visit</a>
           </div></div></div>
+          <div class="col-sm"><div class="card" style="width: 18rem; height: 32rem;">
+            <img class="card-img-top" src="store-index-icon.png" alt="Story">
+            <div class="card-body">
+              <h5 class="card-title">Free Amazon Giftcard!<span class="badge badge-secondary">$$$</span></h5>
+              <p class="card-text">Free Amazon Giftcard Generator! Amazon giftcards for Free!</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#unfinished">Visit</button>
+            </div></div></div>
     </div>
   </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
